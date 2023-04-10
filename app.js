@@ -2,6 +2,7 @@ const sections = document.querySelectorAll('.section');
 const secBtns = document.querySelectorAll('.controls');
 const secBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
+document.getElementById('thankyou').style.visibility='hidden';
 
 function PageChange() {
     //Button click active class
@@ -33,6 +34,11 @@ function PageChange() {
          
         }
     })
+}
+
+function reply_click()
+{
+    alert("Thank you for contacting us, we will get in touch with you soon...");
 }
 
 PageChange();

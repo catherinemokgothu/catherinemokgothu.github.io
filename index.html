@@ -236,6 +236,31 @@
                 </div>
             </div>
         </section>
+        <section class="section sec2 mentorship" id="mentorship">
+            <div class="main-title">
+                <h2>Ab<span>out</span><span class="bg-text">Mentorship</span></h2>
+            </div>
+            <div class="header-content-mentorship">
+                <div class="right-header-mentorship">
+                    </br>
+                    </br>
+                    <p>
+                        I am offering free 1:1 mentoring sessions for women having a background in IT or interested to break into tech. The sessions happen online via a video call. 
+                    </p>
+                    </br>
+                    </br>
+                    <p>
+                        You can find more about <a href="index.html">my professional background here.</a>
+                        During mentoring we can discuss topics like career advice, public speaking, platforms to find mentors, imposter syndrome, prepare for upcoming job interviews or check your CV. 
+                        Always open for other topics as well.
+                            
+                    </p>
+                    </br>
+                </br>
+                </div>
+            </div>
+
+        </section>
        <!--<section class="section sec3 portfolio" id="portfolio">
             <div class="main-title">
                 <h2>My <span>Portfolio</span><span class="bg-text">My work</span></h2>
@@ -461,8 +486,8 @@
                         </div>
                         <div class="contact-icons">
                             <div class="contact-icon">
-                                <a href="https://www.facebook.com/mokgothu.catherine/" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
+                                <a href="https://medium.com/@ckmokgothu" target="_blank">
+                                    <i class="fab fa-medium-m"></i>
                                 </a>
                                 <a href="https://twitter.com/cathy_mokgothu" target="_blank">
                                     <i class="fab fa-twitter"></i>
@@ -479,26 +504,39 @@
                          </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form" onsubmit="sendEmail(); reset(); return false;">
+                        <form action="https://formsubmit.co/ae8c8ed5b5c2667cbd883bdb6112dfad" method="POST">
                             <div class="input-control i-c-2">
-                                <input type="text" id="name" required placeholder="YOUR NAME" >
-                                <input type="email" id="email" required placeholder="YOUR EMAIL" >
+                                <input type="text" id="name" name="Name" required placeholder="Your Name" >
+                                <input type="email" id="email" name="Email" required placeholder="Your Email" >
                             </div>
                             <div class="input-control">
-                                <input type="text" id="subject" required placeholder="ENTER SUBJECT" >
+                                <input type="text" id="subject" name="Subject" required placeholder="Enter Subject" >
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="message" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea id="message" name="Message" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
-                            <a href="" class="main-btn">
-                                <span class="btn-text">Send Email</span>
-                            </a>
-
+                            <button class="main-btn-submit" type="Submit" onclick="reply_click()">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>  
+        </section> 
+        <section class="login-main-wrapper" id="thankyou">
+            <div class="main-container">
+                <div class="login-process">
+                    <div class="login-main-container">
+                        <div class="thankyou-wrapper">
+                            <h1><img src="img/thankyou.webp" alt="thanks" /></h1>
+                              <p>for contacting us, we will get in touch with you soon... </p>
+                              <a href="index.html">Back to home</a>
+                              <div class="clr"></div>
+                          </div>
+                          <div class="clr"></div>
+                      </div>
+                  </div>
+                  <div class="clr"></div>
+              </div>
+          </section> 
        
     </main>
     <div class="controls">
@@ -507,6 +545,9 @@
         </div>
         <div class="control" data-id="about">
             <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="mentorship">
+            <i class="fa fa-users" aria-hidden="true"></i>
         </div>
         <!--<div class="control" data-id="portfolio">
             <i class="fas fa-briefcase"></i>
